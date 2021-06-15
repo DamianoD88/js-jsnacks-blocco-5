@@ -154,7 +154,12 @@
  var corte = [];
 
  var lunghe = [];
- 
 
+for (var i = 0; i < zucchine.length; i++) {
+    if (zucchine[i].lunghezza < 15){
+        corte.push()
+    }
+
+}
 
  //Infine stampa separatamente quanto pesano i due gruppi di zucchine
