@@ -149,6 +149,11 @@
     
  ];
 
+ for (var key in zucchine) {
+    console.log(zucchine[key]);
+    
+}
+
  //Dividi in due array separati le zucchine che misurano meno o più di 15cm. 
 
  var corte = [];
@@ -157,9 +162,13 @@
 
 for (var i = 0; i < zucchine.length; i++) {
     if (zucchine[i].lunghezza < 15){
-        corte.push()
+        corte.push(zucchine[i].lunghezza)
+    }else if (zucchine[i].lunghezza >= 15){
+        lunghe.push(zucchine[i].lunghezza)
     }
 
 }
+console.log(corte);
+console.log(lunghe);
 
  //Infine stampa separatamente quanto pesano i due gruppi di zucchine
