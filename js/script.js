@@ -1,31 +1,94 @@
 // 1. Creare un array di oggetti:
 // Ogni oggetto descriverà una bici da corsa con le seguenti proprietà: nome e peso. Stampare a schermo la bici con peso minore.
 
-var tipoBici = [
-    {
-        nome : 'scott',
-        peso : 7
-    },
-    {
-        nome : 'ktm',
-        peso : 10
-    },
-    {
-        nome : 'bianchi',
-        peso : 5
-    }
-];
+// var tipoBici = [
+//     {
+//         nome : 'scott',
+//         peso : 7
+//     },
+//     {
+//         nome : 'ktm',
+//         peso : 10
+//     },
+//     {
+//         nome : 'bianchi',
+//         peso : 5
+//     }
+// ];
 
 
-var pesoMin = tipoBici[0];
+// var pesoMin = tipoBici[0];
 
-for(var i = 1; i < tipoBici.length; i++){
-    if(tipoBici[i].peso < pesoMin.peso){
-        pesoMin = tipoBici[i];
-    }
-}
+// for(var i = 1; i < tipoBici.length; i++){
+//     if(tipoBici[i].peso < pesoMin.peso){
+//         pesoMin = tipoBici[i];
+//     }
+// }
 
-console.log(pesoMin);
+// console.log(pesoMin);
 
 // 2. Crea un array di 10 oggetti che rappresentano una zucchina, indicandone per ognuno varietà, peso e lunghezza.
 // Calcola quanto pesano tutte le zucchine.
+
+var zucchine = [
+    {
+        nome : 'Varietà1',
+        peso : '1',
+        lunghezza : '12' 
+    },
+    {
+         nome : 'Varietà2',
+         peso : '0.8',
+         lunghezza : '12' 
+    },
+    {
+         nome : 'Varietà3',
+         peso : '0.5',
+         lunghezza : '10' 
+    },
+    {
+         nome : 'Varietà4',
+         peso : '0.3',
+         lunghezza : '7' 
+    },
+    {
+         nome : 'Varietà5',
+         peso : '0.2',
+         lunghezza : '5' 
+    },
+    {
+         nome : 'Varietà6',
+         peso : '0.5',
+         lunghezza : '8' 
+    },
+    {
+         nome : 'Varietà7',
+         peso : '0.9',
+         lunghezza : '9' 
+    },
+    {
+         nome : 'Varietà8',
+         peso : '2',
+         lunghezza : '15' 
+    },
+    {
+         nome : 'Varietà9',
+         peso : '0.1',
+         lunghezza : '5' 
+    },
+    {
+         nome : 'Varietà10',
+         peso : '0.3',
+         lunghezza : '7' 
+    },
+    
+ ];
+    
+ var sommaPeso = 0;
+    
+ for (var i = 0; i < zucchine.length; i++){
+     console.log(zucchine[i].peso);
+     sommaPeso = sommaPeso + zucchine[i].peso;
+        
+ }
+ console.log(sommaPeso);
