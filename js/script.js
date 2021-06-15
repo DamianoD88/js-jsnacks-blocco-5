@@ -160,9 +160,7 @@
 
  var lunghe = [];
 
- var sommaPesoCorte = 0;
 
-var sommaPesoLunghe = 0;
 
 for (var i = 0; i < zucchine.length; i++) {
     if (zucchine[i].lunghezza < 15){
@@ -178,13 +176,23 @@ console.log(lunghe);
 
  //Infine stampa separatamente quanto pesano i due gruppi di zucchine
 
+var sommaPesoCorte = 0;
 
+var sommaPesoLunghe = 0;
 
 for ( var i = 0; i < corte.length; i++ ){
     console.log(corte[i].peso);
     sommaPesoCorte = sommaPesoCorte + corte[i].peso;
-
+    
 }
 
 console.log(sommaPesoCorte)
+
+for ( var i = 0; i < lunghe.length; i++ ){
+    console.log(lunghe[i].peso);
+    sommaPesoLunghe = sommaPesoLunghe + lunghe[i].peso;
+    
+}
+
+console.log(sommaPesoLunghe)
 
