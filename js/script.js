@@ -30,7 +30,72 @@
 // 2. Crea un array di 10 oggetti che rappresentano una zucchina, indicandone per ognuno varietà, peso e lunghezza.
 // Calcola quanto pesano tutte le zucchine.
 
-var zucchine = [
+// var zucchine = [
+//     {
+//         nome : 'Varietà1',
+//         peso : '1',
+//         lunghezza : '12' 
+//     },
+//     {
+//          nome : 'Varietà2',
+//          peso : '0.8',
+//          lunghezza : '12' 
+//     },
+//     {
+//          nome : 'Varietà3',
+//          peso : '0.5',
+//          lunghezza : '10' 
+//     },
+//     {
+//          nome : 'Varietà4',
+//          peso : '0.3',
+//          lunghezza : '7' 
+//     },
+//     {
+//          nome : 'Varietà5',
+//          peso : '0.2',
+//          lunghezza : '5' 
+//     },
+//     {
+//          nome : 'Varietà6',
+//          peso : '0.5',
+//          lunghezza : '8' 
+//     },
+//     {
+//          nome : 'Varietà7',
+//          peso : '0.9',
+//          lunghezza : '9' 
+//     },
+//     {
+//          nome : 'Varietà8',
+//          peso : '2',
+//          lunghezza : '15' 
+//     },
+//     {
+//          nome : 'Varietà9',
+//          peso : '0.1',
+//          lunghezza : '5' 
+//     },
+//     {
+//          nome : 'Varietà10',
+//          peso : '0.3',
+//          lunghezza : '7' 
+//     },
+    
+//  ];
+    
+//  var sommaPeso = 0;
+    
+//  for (var i = 0; i < zucchine.length; i++){
+//      console.log(zucchine[i].peso);
+//      sommaPeso = sommaPeso + zucchine[i].peso;
+        
+//  }
+//  console.log(sommaPeso);
+
+ //3. Crea un array di 10 oggetti che rappresentano una zucchina.
+ 
+ var zucchine = [
     {
         nome : 'Varietà1',
         peso : '1',
@@ -39,22 +104,22 @@ var zucchine = [
     {
          nome : 'Varietà2',
          peso : '0.8',
-         lunghezza : '12' 
+         lunghezza : '22' 
     },
     {
          nome : 'Varietà3',
          peso : '0.5',
-         lunghezza : '10' 
+         lunghezza : '20' 
     },
     {
          nome : 'Varietà4',
          peso : '0.3',
-         lunghezza : '7' 
+         lunghezza : '17' 
     },
     {
          nome : 'Varietà5',
          peso : '0.2',
-         lunghezza : '5' 
+         lunghezza : '15' 
     },
     {
          nome : 'Varietà6',
@@ -83,12 +148,13 @@ var zucchine = [
     },
     
  ];
-    
- var sommaPeso = 0;
-    
- for (var i = 0; i < zucchine.length; i++){
-     console.log(zucchine[i].peso);
-     sommaPeso = sommaPeso + zucchine[i].peso;
-        
- }
- console.log(sommaPeso);
+
+ //Dividi in due array separati le zucchine che misurano meno o più di 15cm. 
+
+ var corte = [];
+
+ var lunghe = [];
+ 
+
+
+ //Infine stampa separatamente quanto pesano i due gruppi di zucchine
