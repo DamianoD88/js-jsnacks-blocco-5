@@ -162,9 +162,9 @@
 
 for (var i = 0; i < zucchine.length; i++) {
     if (zucchine[i].lunghezza < 15){
-        corte.push(zucchine[i].lunghezza)
+        corte.push(zucchine[i])
     }else if (zucchine[i].lunghezza >= 15){
-        lunghe.push(zucchine[i].lunghezza)
+        lunghe.push(zucchine[i])
     }
 
 }
