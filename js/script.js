@@ -1,4 +1,4 @@
-// Creare un array di oggetti:
+// 1. Creare un array di oggetti:
 // Ogni oggetto descriverà una bici da corsa con le seguenti proprietà: nome e peso. Stampare a schermo la bici con peso minore.
 
 var tipoBici = [
@@ -26,3 +26,6 @@ for(var i = 1; i < tipoBici.length; i++){
 }
 
 console.log(pesoMin);
+
+// 2. Crea un array di 10 oggetti che rappresentano una zucchina, indicandone per ognuno varietà, peso e lunghezza.
+// Calcola quanto pesano tutte le zucchine.
